@@ -1,0 +1,190 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212121; 
+    color: #f5f5f5; 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #34495e; 
+    padding: 25px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ecf0f1; 
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #bdc3c7; 
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #1abc9c; 
+}
+
+
+.title {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2c3e50; 
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 3rem;
+    color: #ecf0f1; 
+    margin: 0;
+}
+
+.title p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #95a5a6; 
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 85%;
+    background: #2c3e50;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+
+.projects {
+    border-right: 2px solid #34495e;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    padding: 15px 0;
+    border-bottom: 1px solid #34495e;
+    color: #bdc3c7;
+}
+
+.projects li:last-child {
+    border-bottom: none;
+}
+
+
+.work {
+    border-right: 2px solid #34495e;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.job {
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.job a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.job a:hover {
+    color: #16a085;
+}
+
+
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education li {
+    padding: 15px 0;
+    border-bottom: 1px solid #34495e;
+    color: #bdc3c7;
+}
+
+.education li:last-child {
+    border-bottom: none;
+}
+
+
+.reviews {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #34495e; 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.reviews .review {
+    display: inline-block;
+    border: 1px solid #34495e;
+    padding: 25px 35px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #2c3e50; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 600px;
+    color: #ecf0f1; 
+}
+
+
+.footer {
+    margin-top: 50px;
+    padding: 25px;
+    width: 100%;
+    background-color: #212121; 
+    color: #ecf0f1; 
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
